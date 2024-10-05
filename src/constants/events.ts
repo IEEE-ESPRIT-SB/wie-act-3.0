@@ -1,17 +1,17 @@
 export const events = [
     {
         imageUrl: '/images/posts/news1.jpg',
-        eventName: 'New Event',
+        eventName: 'technical challenge',
         category: 'Event'
     },
     {
         imageUrl: '/images/posts/news1.jpg',
-        eventName: 'New Event',
+        eventName: 'theme revealed',
         category: 'Event'
     },
     {
         imageUrl: '/images/posts/news1.jpg',
-        eventName: 'New Event',
+        eventName: 'final registration',
         category: 'Event'
     },
     {

@@ -4,12 +4,12 @@ import { events } from '@/constants/events';
 
 const NewsSection = () => {
     return (
-        <section className='flex flex-col gap-10 md:px-40 px-10'>
-            <div className='flex flex-col gap-4'>
-                <Badge text='Latest News' />
-                <h4 className='md:text-5xl text-4xl font-black'>
-                    Stay Updated With Our News
+        <section className='flex flex-col gap-10 md:px-40 px-10 z-40'>
+            <div className='inline-flex items-center justify-between'>
+                <h4 className='md:text-5xl text-4xl font-black uppercase'>
+                    Congress Updates
                 </h4>
+                <Badge text='See All' />
             </div>
             <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between gap-10'>
                 {events.map((event, index) => (

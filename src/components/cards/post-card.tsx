@@ -7,14 +7,16 @@ type Props = {
 const PostCard = ({ imageUrl, eventName, category }: Props) => {
     return (
         <div
-            className='w-[250px] h-[330px] duration-300 px-4 py-2 flex flex-col justify-end bg-cover bg-center bg-no-repeat self-center'
+            className='w-[250px] h-[330px] duration-300 px-4 py-6 flex flex-col gap-4 justify-end bg-cover bg-center bg-no-repeat self-center'
             style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(${imageUrl})`
             }}>
-            <span className='text-foreground font-semibold w-fit text-sm px-4 py-1 bg-primary rounded-full'>
+            <span className='text-white font-semibold w-fit text-sm px-4 py-1 bg-primary rounded-full'>
                 {category}
             </span>
-            <h4 className='text-xl font-medium'>{eventName}</h4>
+            <h4 className='text-lg font-bold text-white uppercase'>
+                {eventName}
+            </h4>
         </div>
     );
 };

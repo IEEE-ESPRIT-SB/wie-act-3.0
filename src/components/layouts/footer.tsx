@@ -3,43 +3,41 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className='bg-[#15151A] md:flex hidden flex-col gap-10 py-10 px-40'>
+        <footer className='md:flex hidden flex-col gap-10 py-10 px-40'>
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-col gap-4 flex-1'>
                     <Image
-                        src='/images/logo.svg'
+                        src='/images/logo.png'
                         alt='logo CSTAM'
-                        width={200}
+                        width={80}
                         height={40}
                     />
-                    <p className='text-white w-1/3'>
+                    <p className='w-1/3'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim Lorem ipsum dolor sit amet,{' '}
                     </p>
                 </div>
                 <div className='flex flex-col gap-4 self-end  w-fit'>
-                    <h4 className='text-white font-bold text-2xl uppercase'>
+                    <h4 className='font-bold text-2xl uppercase'>
                         Quick Links
                     </h4>
                     <ul className='flex flex-col gap-2'>
-                        <li className='text-white'>Home</li>
-                        <li className='text-white'>About Us</li>
-                        <li className='text-white'>Agenda</li>
-                        <li className='text-white'>Sponsors</li>
-                        <li className='text-white'>Contact</li>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Agenda</li>
+                        <li>Sponsors</li>
+                        <li>Contact</li>
                     </ul>
                 </div>
             </div>
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-row items-center gap-2'>
-                    <p className='text-white'>© 2024, All Rights Reserved</p>
+                    <p>© 2024, All Rights Reserved</p>
                     <div className='bg-white h-2 w-2 rounded-full' />
-                    <p className='text-white'>Powered By IEEE CS ESPRIT SBC</p>
+                    <p>Powered By IEEE CS ESPRIT SBC</p>
                     <div className='bg-white h-2 w-2 rounded-full' />
-                    <p className='text-white'>
-                        COMPUTER SOCIETY TUNISIAN ANNUAL CONGRESS
-                    </p>
+                    <p>COMPUTER SOCIETY TUNISIAN ANNUAL CONGRESS</p>
                 </div>
                 <div className='flex flex-row gap-4'>
                     <svg

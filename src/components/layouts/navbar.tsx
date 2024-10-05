@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import { MenuIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -29,12 +28,12 @@ const navItems = [
 
 const Navbar = () => {
     return (
-        <div className='fixed inline-flex items-center justify-between w-full md:px-20 px-10 py-4 bg-background z-20'>
-            <div className='inline-flex items-center gap-20'>
+        <div className='fixed inline-flex items-center justify-between w-full md:px-20 px-10 py-4 z-[999]'>
+            <div className='inline-flex w-full justify-between items-center gap-20'>
                 <Image
-                    src='/images/logo.svg'
+                    src='/images/logo.png'
                     alt='logo CSTAM'
-                    width={200}
+                    width={40}
                     height={40}
                 />
                 <div className='items-center gap-10 md:flex hidden'>
@@ -42,7 +41,7 @@ const Navbar = () => {
                         <Link
                             key={index}
                             href={item.link}
-                            className='text-foreground hover:text-white duration-200 font-medium text-xl'>
+                            className='text-foreground hover:text-white duration-200 font-medium text-lg'>
                             {item.name}
                         </Link>
                     ))}
@@ -56,7 +55,7 @@ const Navbar = () => {
                     <DrawerContent>
                         <div className='flex flex-col p-10 gap-20 '>
                             <Image
-                                src='/images/logo.svg'
+                                src='/images/logo.png'
                                 alt='logo CSTAM'
                                 className='self-center'
                                 width={200}
@@ -76,9 +75,6 @@ const Navbar = () => {
                     </DrawerContent>
                 </Drawer>
             </div>
-            <Button variant='secondary' size='lg' className='md:block hidden'>
-                Register Now
-            </Button>
         </div>
     );
 };
