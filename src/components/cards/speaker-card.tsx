@@ -11,14 +11,11 @@ const SpeakerCard = ({ name, description, imageUrl }: Props) => {
             style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(${imageUrl})`
             }}>
-            <div
-                className='flex flex-col gap-1 bg-gradient-to-l px-6 py-3 rounded-b-xl'
-                style={{
-                    background:
-                        'linear-gradient(to left, rgba(110, 0, 253, 0.6), rgba(49, 16, 4, 0.6))'
-                }}>
-                <h4 className='text-2xl font-bold uppercase'>{name}</h4>
-                <p className='text-sm font-medium'>{description}</p>
+            <div className='flex flex-col gap-1 px-6 py-3 rounded-b-xl bg-gradient-to-l from-[#925775] to-[#65133a] bg-opacity-25'>
+                <h4 className='text-2xl font-bold uppercase text-white'>
+                    {name}
+                </h4>
+                <p className='text-sm text-white'>{description}</p>
             </div>
         </div>
     );

@@ -2,7 +2,9 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
     return (
-        <section className='h-screen w-full flex flex-col justify-center md:px-40 px-10 relative'>
+        <section
+            id='hero-section'
+            className='h-screen w-full flex flex-col justify-center md:px-40 px-10 relative'>
             <h1 className='md:text-8xl text-6xl font-black uppercase'>
                 wie act 3.0
             </h1>

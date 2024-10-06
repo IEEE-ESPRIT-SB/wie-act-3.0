@@ -3,12 +3,8 @@
 @tailwind utilities;
 
 
-
-body {
-    background-color: hsl(var(--background));
-    background-image: url('/images/bg1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
 }
 
 @layer utilities {
@@ -51,4 +47,7 @@ body {
     body {
         @apply bg-background text-foreground;
     }
+
+
+
 }

@@ -1,5 +1,7 @@
 import { InstagramLogoIcon } from '@radix-ui/react-icons';
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -34,23 +36,22 @@ const Footer = () => {
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-row items-center gap-2'>
                     <p>© 2024, All Rights Reserved</p>
-                    <div className='bg-white h-2 w-2 rounded-full' />
+                    <div className='bg-foreground h-2 w-2 rounded-full' />
                     <p>Powered By IEEE CS ESPRIT SBC</p>
-                    <div className='bg-white h-2 w-2 rounded-full' />
+                    <div className='bg-foreground h-2 w-2 rounded-full' />
                     <p>COMPUTER SOCIETY TUNISIAN ANNUAL CONGRESS</p>
                 </div>
                 <div className='flex flex-row gap-4'>
-                    <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        x='0px'
-                        y='0px'
-                        width='25'
-                        height='25'
-                        fill='white'
-                        viewBox='0 0 30 30'>
-                        <path d='M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z'></path>
-                    </svg>
-                    <InstagramLogoIcon width={25} height={25} />
+                    <Link
+                        target='_blank'
+                        href='https://www.facebook.com/profile.php?id=100084776743566/'>
+                        <FaFacebook size={25} />
+                    </Link>
+                    <Link
+                        target='_blank'
+                        href='https://www.instagram.com/wie.act/'>
+                        <InstagramLogoIcon width={25} height={25} />
+                    </Link>
                 </div>
             </div>
         </footer>

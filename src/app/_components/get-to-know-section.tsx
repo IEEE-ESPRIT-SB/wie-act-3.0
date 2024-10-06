@@ -5,6 +5,7 @@ import { ChevronRight } from 'lucide-react';
 const GetToKnow = () => {
     return (
         <section
+            id='get-to-know-section'
             className='flex flex-row mx:px-40 px-10 py-40 bg-center bg-cover bg-no-repeat w-full'
             style={{
                 backgroundImage: `url('/images/about-bg.png')`

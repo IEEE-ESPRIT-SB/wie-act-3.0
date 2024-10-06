@@ -5,16 +5,9 @@ import Image from 'next/image';
 
 const TechChallenge = () => {
     return (
-        <div className='md:px-40 px-10 flex flex-row'>
-            <div className='flex-1 md:flex hidden items-center justify-center'>
-                <Image
-                    src='/images/coupe.png'
-                    width={300}
-                    height={400}
-                    alt='Tech Challenge'
-                    className=' mix-blend-screen'
-                />
-            </div>
+        <section
+            id='tech-challenge-section'
+            className='md:pl-40 md:px-0 px-10 flex flex-row items-center gap-40 relative'>
             <div className='flex flex-col gap-10 flex-1'>
                 <Badge text='Technical Challenge' />
                 <div className='flex flex-col gap-4'>
@@ -35,7 +28,14 @@ const TechChallenge = () => {
                     </Button>
                 </div>
             </div>
-        </div>
+            <Image
+                className='md:block hidden'
+                src='/images/challenge.png'
+                width={800}
+                height={400}
+                alt='Tech Challenge'
+            />
+        </section>
     );
 };
 
