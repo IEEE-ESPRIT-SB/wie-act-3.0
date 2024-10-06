@@ -12,7 +12,7 @@ export const ebTeams = [
     {
         name: 'Salma Torki',
         description: 'Secretary General',
-        imageUrl: '/images/team/salma-torki.jpg'
+        imageUrl: '/images/team/salma-torki.jpg' // CONTACT
     },
     {
         name: 'Adam Lassidi',
@@ -22,7 +22,7 @@ export const ebTeams = [
     {
         name: 'Sarra Bellassoued',
         description: 'HR',
-        imageUrl: '/images/team/sarra-bellassoued.jpg'
+        imageUrl: '/images/team/sarra-bellassoued.jpg' // CONTACT
     },
     {
         name: 'Mohamed Bouzayen',
@@ -37,12 +37,12 @@ export const ebTeams = [
     {
         name: 'Cheima Barhoumi',
         description: 'Sponsoring Manager',
-        imageUrl: '/images/team/cheima-barhoumi.jpg'
+        imageUrl: '/images/team/cheima-barhoumi.jpg' // CONTACT
     },
     {
         name: 'Anis Ben Mehrez',
         description: 'Communication Manager',
-        imageUrl: '/images/oc/anis.jpg'
+        imageUrl: '/images/oc/anis-ben-mehrez.jpg'
     },
     {
         name: 'Ghada Aouina',
@@ -80,137 +80,137 @@ export const ocTeams = {
     mediaTeam: [
         {
             name: 'Farah Lakhel',
-            imageUrl: '/images/ocTeams/mediaTeam/farah-lakhel.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/farah-lakhel.jpg' // CONTACT
         },
         {
             name: 'Yassine Khemiri',
-            imageUrl: '/images/ocTeams/mediaTeam/yassine-khemiri.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/yassine-khemiri.jpg' // CONTACT
         },
         {
             name: 'Farouk BenHaj',
-            imageUrl: '/images/ocTeams/mediaTeam/farouk-benhaj.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/farouk-benhaj.jpg'
         },
         {
             name: 'Raouaa Ben Mehrez',
-            imageUrl: '/images/ocTeams/mediaTeam/raouaa-ben-mehrez.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/raouaa-ben-mehrez.jpg' // CONTACT
         },
         {
             name: 'Roua Dridi',
-            imageUrl: '/images/ocTeams/mediaTeam/roua-dridi.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/roua-dridi.jpg' // CONTACT
         },
         {
             name: 'Abderrahmen Jabberi',
-            imageUrl: '/images/ocTeams/mediaTeam/abderrahmen-jabberi.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/abderrahmen-jabberi.jpg' // CONTACT
         },
         {
             name: 'Khouloud Belhadj',
-            imageUrl: '/images/ocTeams/mediaTeam/khouloud-belhadj.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/khouloud-belhadj.jpg' // CONTACT
         },
         {
             name: 'Aziz Hbaili',
-            imageUrl: '/images/ocTeams/mediaTeam/aziz-hbaili.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/aziz-hbaili.jpg' // CONTACT
         },
         {
             name: 'Bechir Ben Rabie',
-            imageUrl: '/images/ocTeams/mediaTeam/bechir-ben-rabie.jpeg'
+            imageUrl: '/images/ocTeams/mediaTeam/bechir-ben-rabie.jpg'
         }
     ],
     logisticsTeam: [
         {
             name: 'Saif Nemri',
-            imageUrl: '/images/ocTeams/logisticsTeam/saif-nemri.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/saif-nemri.jpg'
         },
         {
             name: 'Mohamed Seifeddine Ouarag',
             imageUrl:
-                '/images/ocTeams/logisticsTeam/mohamed-seifeddine-ouarag.jpeg'
+                '/images/ocTeams/logisticsTeam/mohamed-seifeddine-ouarag.jpg'
         },
         {
             name: 'Mohamed Herguem',
-            imageUrl: '/images/ocTeams/logisticsTeam/mohamed-herguem.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/mohamed-herguem.jpg'
         },
         {
             name: 'Nassire Bouzaiene',
-            imageUrl: '/images/ocTeams/logisticsTeam/nassire-bouzaiene.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/nassire-bouzaiene.jpg'
         },
         {
             name: 'Yosra Saadani',
-            imageUrl: '/images/ocTeams/logisticsTeam/yosra-saadani.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/yosra-saadani.jpg' // CONTACT
         },
         {
             name: 'Mohamed Brahmi',
-            imageUrl: '/images/ocTeams/logisticsTeam/mohamed-brahmi.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/mohamed-brahmi.jpg'
         },
         {
             name: 'Amal Ammar',
-            imageUrl: '/images/ocTeams/logisticsTeam/amal-ammar.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/amal-ammar.jpg'
         },
         {
             name: 'Achref Zribi',
-            imageUrl: '/images/ocTeams/logisticsTeam/achref-zribi.jpeg'
+            imageUrl: '/images/ocTeams/logisticsTeam/achref-zribi.jpg' // CONTACT
         }
     ],
     sponsoringTeam: [
         {
             name: 'Lina Kazdaghli',
-            imageUrl: '/images/ocTeams/sponsoringTeam/lina-kazdaghli.jpeg'
+            imageUrl: '/images/ocTeams/sponsoringTeam/lina-kazdaghli.jpg' // CONTACT
         },
         {
             name: 'Amal Romdhani',
-            imageUrl: '/images/ocTeams/sponsoringTeam/amal-romdhani.jpeg'
+            imageUrl: '/images/ocTeams/sponsoringTeam/amal-romdhani.jpg' // CONTACT
         },
         {
             name: 'Ghalia Abd',
-            imageUrl: '/images/ocTeams/sponsoringTeam/ghalia-abd.jpeg'
+            imageUrl: '/images/ocTeams/sponsoringTeam/ghalia-abd.jpg' // CONTACT
         },
         {
             name: 'Aziz Chalghaf',
-            imageUrl: '/images/ocTeams/sponsoringTeam/aziz-chalghaf.jpeg'
+            imageUrl: '/images/ocTeams/sponsoringTeam/aziz-chalghaf.jpg' // CONTACT
         },
         {
             name: 'Sirine Ltaief',
-            imageUrl: '/images/ocTeams/sponsoringTeam/sirine-ltaief.jpeg'
+            imageUrl: '/images/ocTeams/sponsoringTeam/sirine-ltaief.jpg' // CONTACT
         },
         {
             name: 'Yefa Attia',
-            imageUrl: '/images/ocTeams/sponsoringTeam/yefa-attia.jpeg'
+            imageUrl: '/images/ocTeams/sponsoringTeam/yefa-attia.jpg' // CONTACT
         }
     ],
     communicationTeam: [
         {
             name: 'Emna Safer',
-            imageUrl: '/images/ocTeams/communicationTeam/emna-safer.jpeg'
+            imageUrl: '/images/ocTeams/communicationTeam/emna-safer.jpg' // CONTACT
         },
         {
             name: 'Nour EL Houda Ammamou',
             imageUrl:
-                '/images/ocTeams/communicationTeam/nour-el-houda-ammamou.jpeg'
+                '/images/ocTeams/communicationTeam/nour-el-houda-ammamou.jpg'
         },
         {
             name: 'Ilyes Fakhfekh',
-            imageUrl: '/images/ocTeams/communicationTeam/ilyes-fakhfekh.jpeg'
+            imageUrl: '/images/ocTeams/communicationTeam/ilyes-fakhfekh.jpg' // CONTACT
         },
         {
             name: 'Zeineb Kharrat',
-            imageUrl: '/images/ocTeams/communicationTeam/zeineb-kharrat.jpeg'
+            imageUrl: '/images/ocTeams/communicationTeam/zeineb-kharrat.jpg' // CONTACT
         },
         {
             name: 'Shayma Ouerhani',
-            imageUrl: '/images/ocTeams/communicationTeam/shayma-ouerhani.jpeg'
+            imageUrl: '/images/ocTeams/communicationTeam/shayma-ouerhani.jpg' // CONTACT
         }
     ],
     technicalTeam: [
         {
             name: 'Mahdi Fathallah',
-            imageUrl: '/images/ocTeams/technicalTeam/mahdi-fathallah.jpeg'
+            imageUrl: '/images/ocTeams/technicalTeam/mahdi-fathallah.jpg' // CONTACT
         },
         {
             name: 'Farouk Chalghoumi',
-            imageUrl: '/images/ocTeams/technicalTeam/farouk-chalghoumi.jpeg'
+            imageUrl: '/images/ocTeams/technicalTeam/farouk-chalghoumi.jpg' // CONTACT
         },
         {
             name: 'Walaeddine Riahi',
-            imageUrl: '/images/ocTeams/technicalTeam/walaeddine-riahi.jpeg'
+            imageUrl: '/images/ocTeams/technicalTeam/walaeddine-riahi.jpg'
         }
     ]
 };
