@@ -23,7 +23,7 @@ const HeroSection = () => {
                 solutions amidst growing digital risks.
             </p>
             <div className='flex gap-10 mt-10'>
-                <Button size='lg'>Register Now</Button>
+                <Button size='lg'>Learn more</Button>
             </div>
         </section>
     );

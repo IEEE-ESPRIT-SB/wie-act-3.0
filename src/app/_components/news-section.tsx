@@ -10,7 +10,7 @@ const NewsSection = () => {
             className='flex flex-col gap-10 md:px-40 px-10 z-40'>
             <div className='inline-flex items-center justify-between'>
                 <h4 className='md:text-5xl text-4xl font-black uppercase'>
-                    Congress Updates
+                    Latest News
                 </h4>
                 <Link
                     target='_blank'
