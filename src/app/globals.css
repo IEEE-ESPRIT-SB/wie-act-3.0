@@ -7,6 +7,20 @@
     display: none;
 }
 
+::-webkit-scrollbar {
+    width: 0.75rem;
+    height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--primary));
+    border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: hsl(var(--secondary));
+}
+
 @layer utilities {
     .text-balance {
         text-wrap: balance;
@@ -23,7 +37,7 @@
         --popover-foreground: 330 95% 10%;
         --primary: 330 52.6% 33.9%;
         --primary-foreground: 0 0% 100%;
-        --secondary: 330 26% 90%;
+        --secondary: 329 60% 75%;
         --secondary-foreground: 0 0% 0%;
         --muted: 292 26% 95%;
         --muted-foreground: 330 5% 40%;
@@ -35,19 +49,13 @@
         --input: 330 26% 50%;
         --ring: 330 52.6% 33.9%;
         --radius: 1rem;
-      
-     
     }
 
     * {
         @apply border-border;
-
-      
     }
+
     body {
         @apply bg-background text-foreground;
     }
-
-
-
 }

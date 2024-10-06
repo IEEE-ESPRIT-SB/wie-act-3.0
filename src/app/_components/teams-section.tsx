@@ -10,7 +10,7 @@ const Teams = () => {
             <div className='flex flex-col gap-4'>
                 <Badge text='Our Team' />
                 <h4 className='md:text-5xl text-4xl font-bold'>
-                    Meet the Minds Behind CSTAM 1.0
+                    Get to know the dedicated team behind WIE ACT 3.0
                 </h4>
             </div>
             <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between gap-10'>

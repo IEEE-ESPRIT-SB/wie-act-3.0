@@ -1,22 +1,37 @@
 export const speakers = [
     {
-        name: 'John Doe',
-        description: 'Lorem ipsum dolor sit amet',
-        imageUrl: '/images/speakers/speaker-1.jpeg'
+        description: 'Blockchain Security Workshop',
+        name: 'Hatem Azaiez',
+        imageUrl: '/images/speakers/hatem-azaiez.jpeg'
     },
     {
-        name: 'Jane Doe',
-        description: 'Lorem ipsum dolor sit amet',
-        imageUrl: '/images/speakers/speaker-1.jpeg'
+        description: 'Navigating Careers in Cybersecurity',
+        name: 'Wajih Letaief',
+        imageUrl: '/images/speakers/wajih-letaief.jpeg'
     },
     {
-        name: 'John Doe',
-        description: 'Lorem ipsum dolor sit amet',
-        imageUrl: '/images/speakers/speaker-1.jpeg'
+        description: 'Wie meet & greet',
+        name: 'Celia Shahnez',
+        imageUrl: '/images/speakers/celia-shahnez.jpg'
     },
     {
-        name: 'Jane Doe',
-        description: 'Lorem ipsum dolor sit amet',
-        imageUrl: '/images/speakers/speaker-1.jpeg'
+        description: 'Wie meet & greet',
+        name: 'Galia Marinova',
+        imageUrl: '/images/speakers/galia-marinova.jpeg' // CONTACT
+    },
+    {
+        description: 'Wie meet & greet',
+        name: 'Pertami Kunz',
+        imageUrl: '/images/speakers/pertami-kunz.jpeg' // CONTACT
+    },
+    {
+        description: 'Wie meet & greet',
+        name: 'Baya Bouchaala',
+        imageUrl: '/images/speakers/baya-bouchaala.jpeg' // CONTACT
+    },
+    {
+        description: 'Wie meet & greet',
+        name: 'Roua Touihri',
+        imageUrl: '/images/speakers/roua-touihri.jpeg' // CONTACT
     }
 ];

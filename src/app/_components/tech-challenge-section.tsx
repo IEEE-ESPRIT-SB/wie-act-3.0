@@ -2,6 +2,7 @@ import Badge from '@/components/badge';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const TechChallenge = () => {
     return (
@@ -15,17 +16,27 @@ const TechChallenge = () => {
                         Rise to the Challenge
                     </h2>
                     <p className='md:text-lg md:py-10'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod{' '}
+                        The WIE ACT Tech Challenge is a dynamic competition
+                        focused on the essential subjects of cybersecurity and
+                        artificial intelligence. Its mission is to foster
+                        development in digital safety for women. Participants
+                        will tackle actual issues while building AI-driven
+                        solutions and cybersecurity strategies to protect women
+                        in a constantly shifting digital context. This challenge
+                        not only tests technical abilities, but it also
+                        encourages creative problem-solving, resulting in a
+                        safer, more inclusive digital environment.
                     </p>
                 </div>
                 <div className='flex'>
-                    <Button size='lg' className='pr-4 py-6'>
-                        Learn More
-                        <ChevronRight size={24} className='ml-4' />
-                    </Button>
+                    <Link
+                        href='https://drive.google.com/file/d/1ZyvcUqeyCe8Xr-8iXXSlFroEYhdXqsNb/view'
+                        target='_blank'>
+                        <Button size='lg' className='pr-4 py-6'>
+                            Learn More
+                            <ChevronRight size={24} className='ml-4' />
+                        </Button>
+                    </Link>
                 </div>
             </div>
             <Image

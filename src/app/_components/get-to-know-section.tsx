@@ -6,7 +6,7 @@ const GetToKnow = () => {
     return (
         <section
             id='get-to-know-section'
-            className='flex flex-row mx:px-40 px-10 py-40 bg-center bg-cover bg-no-repeat w-full'
+            className='flex flex-row md:px-40 px-10 py-40 bg-center bg-cover bg-no-repeat w-full'
             style={{
                 backgroundImage: `url('/images/about-bg.png')`
             }}>
@@ -19,10 +19,12 @@ const GetToKnow = () => {
                     </h4>
                 </div>
                 <p className='md:text-lg'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod
+                    The Women in Engineering Annual Congress of Tunisia (WIE
+                    ACT) is an inspiring event that brings together creative
+                    minds from engineering, technology, and development. Our
+                    objective is to support women in engineering through
+                    providing an environment for information sharing,
+                    networking, and professional development.
                 </p>
                 <div className='flex'>
                     <Button size='lg' className='pr-4 py-6'>

@@ -13,7 +13,7 @@ const Speakers = () => {
                     Speaker Lineup
                 </h4>
             </div>
-            <div className='flex md:flex-wrap md:flex-row flex-col md:items-start items-center md:justify-between gap-10'>
+            <div className='flex md:flex-row flex-col overflow-x-auto overflow-y-hidden md:items-start items-center gap-10 py-10'>
                 {speakers.map((speaker, index) => (
                     <SpeakerCard
                         key={index}

@@ -15,9 +15,12 @@ const Footer = () => {
                         height={40}
                     />
                     <p className='w-1/3'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim Lorem ipsum dolor sit amet,{' '}
+                        The Women in Engineering Annual Congress of Tunisia (WIE
+                        ACT) is an inspiring event that brings together creative
+                        minds from engineering, technology, and development. Our
+                        objective is to support women in engineering through
+                        providing an environment for information sharing,
+                        networking, and professional development.
                     </p>
                 </div>
                 <div className='flex flex-col gap-4 self-end  w-fit'>
@@ -34,12 +37,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex flex-row justify-between'>
-                <div className='flex flex-row items-center gap-2'>
+                <div className='flex flex-row items-center gap-2 text-[#C2794F]'>
                     <p>© 2024, All Rights Reserved</p>
-                    <div className='bg-foreground h-2 w-2 rounded-full' />
-                    <p>Powered By IEEE CS ESPRIT SBC</p>
-                    <div className='bg-foreground h-2 w-2 rounded-full' />
-                    <p>COMPUTER SOCIETY TUNISIAN ANNUAL CONGRESS</p>
+                    <div className='bg-[#C2794F] h-2 w-2 rounded-full' />
+                    <p>Powered By IEEE WIE ESPRIT SBAG</p>
+                    <div className='bg-[#C2794F] h-2 w-2 rounded-full' />
+                    <p className='uppercase font-bold'>
+                        women in engineering annual congress of tunisia
+                    </p>
                 </div>
                 <div className='flex flex-row gap-4'>
                     <Link
