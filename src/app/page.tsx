@@ -16,6 +16,20 @@ import WieLogo from '/public/images/sponsors/wie.png';
 export default function Home() {
     return (
         <main className='flex flex-col md:gap-20 gap-20 py-20 bg-background'>
+            <Image
+                className='absolute top-0 right-0'
+                src='/images/hero-bg.png'
+                alt='hero'
+                width={1500}
+                height={900}
+            />
+            <Image
+                className='absolute top-0 left-0'
+                src='/images/act.png'
+                alt='hero'
+                width={200}
+                height={900}
+            />
             <HeroSection />
             <div className='flex justify-center items-center gap-20 overflow-x-scroll overflow-hidden z-10 scrollbar-hide'>
                 <Image

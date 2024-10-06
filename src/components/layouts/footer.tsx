@@ -5,7 +5,7 @@ import { FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className='md:flex hidden flex-col gap-10 py-10 px-40'>
+        <footer className='md:flex hidden flex-col gap-10 py-10 px-40 z-[999]'>
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-col gap-4 flex-1'>
                     <Image

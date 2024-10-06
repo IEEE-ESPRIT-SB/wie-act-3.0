@@ -37,7 +37,7 @@ export const ebTeams = [
     {
         name: 'Cheima Barhoumi',
         description: 'Sponsoring Manager',
-        imageUrl: '/images/oc/cheima-barhoumi.webp' // CONTACT
+        imageUrl: '/images/oc/cheima-barhoumi.webp'
     },
     {
         name: 'Anis Ben Mehrez',
@@ -84,7 +84,7 @@ export const oc = {
         },
         {
             name: 'Yassine Khemiri',
-            imageUrl: '/images/oc/mediaTeam/yassine-khemiri.webp' // CONTACT
+            imageUrl: '/images/oc/mediaTeam/yassine-khemiri.webp'
         },
         {
             name: 'Farouk BenHaj',
@@ -96,11 +96,7 @@ export const oc = {
         },
         {
             name: 'Roua Dridi',
-            imageUrl: '/images/oc/mediaTeam/roua-dridi.webp' // CONTACT
-        },
-        {
-            name: 'Abderrahmen Jabberi',
-            imageUrl: '/images/oc/mediaTeam/abderrahmen-jabberi.webp' // CONTACT
+            imageUrl: '/images/oc/mediaTeam/roua-dridi.webp'
         },
         {
             name: 'Khouloud Belhadj',
@@ -146,7 +142,7 @@ export const oc = {
         },
         {
             name: 'Achref Zribi',
-            imageUrl: '/images/oc/achref-zribi.webp' // CONTACT
+            imageUrl: '/images/oc/achref-zribi.webp'
         }
     ],
     sponsoringTeam: [
@@ -183,18 +179,6 @@ export const oc = {
         {
             name: 'Nour EL Houda Ammamou',
             imageUrl: '/images/oc/nour-el-houda-ammamou.webp'
-        },
-        {
-            name: 'Ilyes Fakhfekh',
-            imageUrl: '/images/oc/ilyes-fakhfekh.webp' // CONTACT
-        },
-        {
-            name: 'Zeineb Kharrat',
-            imageUrl: '/images/oc/zeineb-kharrat.webp' // CONTACT
-        },
-        {
-            name: 'Shayma Ouerhani',
-            imageUrl: '/images/oc/shayma-ouerhani.webp' // CONTACT
         }
     ],
     technicalTeam: [

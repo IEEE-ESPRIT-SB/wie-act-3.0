@@ -1,6 +1,7 @@
 import Badge from '@/components/badge';
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
+import Link from 'next/link';
 
 const GetToKnow = () => {
     return (
@@ -27,10 +28,12 @@ const GetToKnow = () => {
                     networking, and professional development.
                 </p>
                 <div className='flex'>
-                    <Button size='lg' className='pr-4 py-6'>
-                        Learn More
-                        <ChevronRight size={24} className='ml-4' />
-                    </Button>
+                    <Link href={'/about-us'}>
+                        <Button size='lg' className='pr-4 py-6'>
+                            Learn More
+                            <ChevronRight size={24} className='ml-4' />
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </section>

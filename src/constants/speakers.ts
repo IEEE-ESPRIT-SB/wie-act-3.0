@@ -17,21 +17,21 @@ export const speakers = [
     {
         description: 'Wie meet & greet',
         name: 'Galia Marinova',
-        imageUrl: '/images/speakers/galia-marinova.jpeg' // CONTACT
+        imageUrl: '/images/speakers/galia-marinova.jpg' // CONTACT
     },
     {
         description: 'Wie meet & greet',
         name: 'Pertami Kunz',
-        imageUrl: '/images/speakers/pertami-kunz.jpeg' // CONTACT
+        imageUrl: '/images/speakers/pertami-kunz.jpg' // CONTACT
     },
     {
         description: 'Wie meet & greet',
         name: 'Baya Bouchaala',
-        imageUrl: '/images/speakers/baya-bouchaala.jpeg' // CONTACT
+        imageUrl: '/images/speakers/baya-bouchaala.jpg'
     },
     {
         description: 'Wie meet & greet',
         name: 'Roua Touihri',
-        imageUrl: '/images/speakers/roua-touihri.jpeg' // CONTACT
+        imageUrl: '/images/speakers/roua-touihri.jpg'
     }
 ];

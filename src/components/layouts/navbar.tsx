@@ -13,16 +13,16 @@ const navItems = [
         link: '/about-us'
     },
     {
-        name: 'Agenda',
-        link: '/agenda'
+        name: 'Latest News',
+        link: '/#news-section'
     },
     {
-        name: 'Sponsors',
-        link: '/sponsors'
+        name: 'Speakers',
+        link: '/#speakers-section'
     },
     {
-        name: 'Contact us',
-        link: '/contact-us'
+        name: 'Teams',
+        link: '/#teams-section'
     }
 ];
 

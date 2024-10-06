@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const HeroSection = () => {
     return (
@@ -22,9 +23,9 @@ const HeroSection = () => {
                 how women are leading the development of secure technical
                 solutions amidst growing digital risks.
             </p>
-            <div className='flex gap-10 mt-10'>
+            <Link href={'/about-us'} className='flex gap-10 mt-10'>
                 <Button size='lg'>Learn more</Button>
-            </div>
+            </Link>
         </section>
     );
 };
