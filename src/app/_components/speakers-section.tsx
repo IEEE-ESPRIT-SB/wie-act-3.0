@@ -9,7 +9,7 @@ const Speakers = () => {
             className='flex flex-col gap-10 md:px-40 px-10 w-full'>
             <div className='flex flex-col gap-4'>
                 <Badge text='Our Speakers' />
-                <h4 className='md:text-5xl text-4xl font-bold'>
+                <h4 className='md:text-5xl text-4xl font-bold uppercase'>
                     Speaker Lineup
                 </h4>
             </div>

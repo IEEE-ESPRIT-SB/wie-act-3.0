@@ -28,7 +28,7 @@ const navItems = [
 
 const Navbar = () => {
     return (
-        <div className='absolute inline-flex items-center justify-between w-full md:px-20 px-10 py-4 z-[999]'>
+        <div className='absolute inline-flex items-center justify-between w-full md:px-20 px-10 py-4 z-[99]'>
             <div className='inline-flex w-full justify-between items-center gap-20'>
                 <Image
                     src='/images/logo.png'
@@ -58,7 +58,7 @@ const Navbar = () => {
                                 src='/images/logo.png'
                                 alt='logo CSTAM'
                                 className='self-center'
-                                width={200}
+                                width={50}
                                 height={40}
                             />
                             <div className='flex flex-col gap-10 '>
@@ -66,7 +66,7 @@ const Navbar = () => {
                                     <Link
                                         key={index}
                                         href={item.link}
-                                        className='text-foreground hover:text-white duration-200 font-medium text-xl'>
+                                        className='text-foreground hover:text-white duration-200 font-medium'>
                                         {item.name}
                                     </Link>
                                 ))}

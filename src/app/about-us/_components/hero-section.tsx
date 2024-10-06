@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
     return (
-        <section className='flex flex-col gap-10 md:px-40 px-10 w-1/2 pt-36'>
+        <section className='flex flex-col gap-10 md:px-40 px-10 md:w-1/2 pt-36 z-[99] md:text-foreground text-white'>
             <Badge text='About Us' />
             <div className='flex flex-col gap-4'>
                 <h2 className='md:text-6xl text-4xl font-bold'>WIE ACT 3.0</h2>
@@ -20,6 +20,7 @@ export default function HeroSection() {
                     Allow us to inspire, empower, and lead the future together!
                 </p>
                 <Image
+                    className='md:block hidden'
                     src='/images/logo.png'
                     width={100}
                     height={100}

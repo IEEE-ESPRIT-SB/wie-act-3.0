@@ -9,7 +9,7 @@ const Teams = () => {
             className='flex flex-col gap-10 md:px-40 px-10'>
             <div className='flex flex-col gap-4'>
                 <Badge text='Our Team' />
-                <h4 className='md:text-5xl text-4xl font-bold'>
+                <h4 className='md:text-5xl text-4xl font-bold uppercase'>
                     Get to know the dedicated team behind WIE ACT 3.0
                 </h4>
             </div>

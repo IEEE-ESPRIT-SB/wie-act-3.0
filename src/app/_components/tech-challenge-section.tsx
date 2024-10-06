@@ -12,7 +12,7 @@ const TechChallenge = () => {
             <div className='flex flex-col gap-10 flex-1'>
                 <Badge text='Technical Challenge' />
                 <div className='flex flex-col gap-4'>
-                    <h2 className='md:text-6xl text-4xl font-bold'>
+                    <h2 className='md:text-6xl text-4xl font-bold uppercase'>
                         Rise to the Challenge
                     </h2>
                     <p className='md:text-lg md:py-10'>

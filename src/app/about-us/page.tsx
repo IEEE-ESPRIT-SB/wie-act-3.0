@@ -15,7 +15,7 @@ export default function AboutUsPage() {
             <HeroSection />
             <PreviousEditions />
             <div
-                className='w-full h-[800px] bg-cover bg-center bg-no-repeat rounded-t-lg -mt-40'
+                className='w-full md:h-[800px] h-auto bg-cover bg-center bg-no-repeat rounded-t-lg md:-mt-40 -mt-20'
                 style={{
                     backgroundImage: `url(/images/esprit.png)`
                 }}></div>
