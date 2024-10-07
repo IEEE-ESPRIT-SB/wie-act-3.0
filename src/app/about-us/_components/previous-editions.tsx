@@ -9,7 +9,7 @@ export default function PreviousEditions() {
                 WIE ACT 1.0 & 2.0
             </h2>
 
-            <div className='flex md:flex-row flex-col gap-20 w-full justify-center items-center'>
+            <div className='flex md:flex-row flex-col items-stretch gap-20 w-full justify-center'>
                 <EditionCard
                     title='wie act 1.0'
                     description="The inaugural IEEE WIE Congress in Tunisia celebrated the exceptional achievements of STEM professionals and sparked women's empowerment, enabling them to thrive in their industries. With the slogan 'Honoring the Past and Inspiring the Future', WIE ACT 1.0 featured inspiring speakers, entertaining competitions, and delightful surprises, providing a remarkable experience."

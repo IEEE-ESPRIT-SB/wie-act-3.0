@@ -7,7 +7,7 @@ export default function AboutUsPage() {
     return (
         <main className='flex flex-col md:gap-20 gap-20 py-20 bg-background'>
             <div
-                className='absolute top-0 right-0 w-[981px] h-[954px] bg-cover bg-center bg-no-repeat rounded-t-lg '
+                className='absolute top-0 right-0 md:w-[981px] h-[954px] bg-cover bg-center bg-no-repeat rounded-t-lg '
                 style={{
                     backgroundImage: `url(/images/hero-about-bg.png)`
                 }}></div>
