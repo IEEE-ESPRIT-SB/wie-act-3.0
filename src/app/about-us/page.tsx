@@ -1,3 +1,5 @@
+import { ebTeams, oc } from '@/constants/teams';
+import TeamsSection from '../_components/teams-section';
 import EspritSb from './_components/esprit-sb';
 import HeroSection from './_components/hero-section';
 import PreviousEditions from './_components/previous-editions';
@@ -21,6 +23,18 @@ export default function AboutUsPage() {
                 }}></div>
             <EspritSb />
             <WieEsprit />
+            <TeamsSection
+                title='Our Teams'
+                description='Get to know the dedicated team behind WIE ACT 3.0'
+                teams={ebTeams}
+            />
+            {Object.entries(oc).map(([teamName, members]) => (
+                <TeamsSection
+                    key={teamName}
+                    title={teamName}
+                    teams={members as any}
+                />
+            ))}
         </main>
     );
 }
