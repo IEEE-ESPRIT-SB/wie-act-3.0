@@ -32,10 +32,9 @@ const Navbar = () => {
             <div className='inline-flex w-full justify-between items-center gap-20'>
                 <Image
                     src='/images/logo.webp'
-                    alt='logo CSTAM'
                     width={40}
                     height={40}
-                    alt='Logo of CSTAM'
+                    alt='Logo of WIE ACT'
                 />
                 <div className='items-center gap-10 md:flex hidden'>
                     {navItems.map((item, index) => (
@@ -57,11 +56,10 @@ const Navbar = () => {
                         <div className='flex flex-col p-10 gap-20 '>
                             <Image
                                 src='/images/logo.webp'
-                                alt='logo CSTAM'
                                 className='self-center'
                                 width={50}
                                 height={40}
-                                alt='Logo of CSTAM'
+                                alt='Logo of WIE ACT'
                             />
                             <div className='flex flex-col gap-10 '>
                                 {navItems.map((item, index) => (

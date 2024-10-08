@@ -12,45 +12,16 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'WIE ACT 3.0',
         description: 'Women in Engineering Annual Congress of Tunisia 3.0',
-        url: 'https://wieact3.com',
+        url: 'https://wie-act.tn',
         type: 'website',
         images: [
             {
-                url: 'https://wieact3.com/images/og-image.jpg',
+                url: 'https://wie-act.tn/images/logo.webp',
                 width: 800,
                 height: 600,
                 alt: 'WIE ACT 3.0'
             }
         ]
-    },
-    structuredData: {
-        '@context': 'https://schema.org',
-        '@type': 'Event',
-        name: 'WIE ACT 3.0',
-        startDate: '2024-10-12T10:00:00+01:00',
-        endDate: '2024-10-13T14:00:00+01:00',
-        eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-        eventStatus: 'https://schema.org/EventScheduled',
-        location: {
-            '@type': 'Place',
-            name: 'Tunis, Tunisia',
-            address: {
-                '@type': 'PostalAddress',
-                streetAddress: '123 Main St',
-                addressLocality: 'Tunis',
-                postalCode: '1000',
-                addressCountry: 'TN'
-            }
-        },
-        image: [
-            'https://wieact3.com/images/og-image.jpg'
-        ],
-        description: 'Women in Engineering Annual Congress of Tunisia 3.0',
-        organizer: {
-            '@type': 'Organization',
-            name: 'IEEE WIE ESPRIT SBAG',
-            url: 'https://wieact3.com'
-        }
     }
 };
 
