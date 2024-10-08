@@ -125,7 +125,7 @@ export const oc = {
             imageUrl: '/images/oc/mohamed-herguem.webp'
         },
         {
-            name: 'Nassire Bouzaiene',
+            name: 'Nassire Bouzayani',
             imageUrl: '/images/oc/nassire-bouzaiene.webp'
         },
         {

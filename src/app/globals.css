@@ -59,3 +59,18 @@
         @apply bg-background text-foreground;
     }
 }
+
+
+.logo-scroll {
+    animation: scroll 15s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Adjust according to the number of logos */
+    }
+}

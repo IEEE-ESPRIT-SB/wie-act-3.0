@@ -8,10 +8,15 @@ import Speakers from './_components/speakers-section';
 import TeamsSection from './_components/teams-section';
 import TechChallenge from './_components/tech-challenge-section';
 import ComSocLogo from '/public/images/sponsors/com-soc.webp';
+import EspritLogo from '/public/images/sponsors/esprit.webp';
 import FoundationLogo from '/public/images/sponsors/foundation.webp';
 import IASLogo from '/public/images/sponsors/ias.webp';
+import MttsLogo from '/public/images/sponsors/mtts.webp';
 import SBLogo from '/public/images/sponsors/sb.webp';
+import SectionLogo from '/public/images/sponsors/section.webp';
+import SmcLogo from '/public/images/sponsors/smc.webp';
 import StudentsLogo from '/public/images/sponsors/students.webp';
+import WieSectionLogo from '/public/images/sponsors/wie-section.webp';
 import WieLogo from '/public/images/sponsors/wie.webp';
 
 export default function Home() {
@@ -29,57 +34,64 @@ export default function Home() {
                 }}></div>
 
             <HeroSection />
-            <div className='flex justify-center items-center gap-20 overflow-x-scroll overflow-hidden z-10 scrollbar-hide'>
-                <Image
-                    src={ComSocLogo}
-                    alt='Com Soc LOGO'
-                    style={{
-                        objectFit: 'contain',
-                        width: 'auto',
-                        height: '40px'
-                    }}
-                />
-                <Image
-                    src={FoundationLogo}
-                    alt='Foundation Logo'
-                    style={{
-                        objectFit: 'contain',
-                        width: 'auto',
-                        height: '40px'
-                    }}
-                />
-                <Image
-                    src={IASLogo}
-                    alt='IAS LOGO'
-                    className='object-contain'
-                />
-                <Image
-                    src={SBLogo}
-                    alt='SB LOGO'
-                    style={{
-                        objectFit: 'contain',
-                        width: 'auto',
-                        height: '40px'
-                    }}
-                />
-                <Image
-                    src={StudentsLogo}
-                    alt='Students LOGO'
-                    style={{
-                        objectFit: 'contain',
-                        width: 'auto',
-                        height: '40px'
-                    }}
-                />
-                <Image
-                    src={WieLogo}
-                    alt='Wie LOGO'
-                    style={{
-                        objectFit: 'contain',
-                        width: 'auto',
-                        height: '60px'
-                    }}
-                />
+            <div className='z-10 md:px-40 px-10'>
+                <div className='overflow-x-scroll flex flex-row items-center gap-10 '>
+                    <Image
+                        src={ComSocLogo}
+                        alt='Com Soc LOGO'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={FoundationLogo}
+                        alt='Foundation Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={SmcLogo}
+                        alt='SMC Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={MttsLogo}
+                        alt='Mtts Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={SectionLogo}
+                        alt='Section Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={WieSectionLogo}
+                        alt='Wie Section Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={EspritLogo}
+                        alt='Esprit Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={IASLogo}
+                        alt='IAS LOGO'
+                        className='object-contain'
+                    />
+                    <Image
+                        src={SBLogo}
+                        alt='SB LOGO'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={StudentsLogo}
+                        alt='Students LOGO'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={WieLogo}
+                        alt='Wie LOGO'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                </div>
             </div>
             <NewsSection />
             <GetToKnow />
