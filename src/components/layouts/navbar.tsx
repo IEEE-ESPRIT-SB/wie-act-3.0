@@ -35,6 +35,7 @@ const Navbar = () => {
                     alt='logo CSTAM'
                     width={40}
                     height={40}
+                    alt='Logo of CSTAM'
                 />
                 <div className='items-center gap-10 md:flex hidden'>
                     {navItems.map((item, index) => (
@@ -60,6 +61,7 @@ const Navbar = () => {
                                 className='self-center'
                                 width={50}
                                 height={40}
+                                alt='Logo of CSTAM'
                             />
                             <div className='flex flex-col gap-10 '>
                                 {navItems.map((item, index) => (

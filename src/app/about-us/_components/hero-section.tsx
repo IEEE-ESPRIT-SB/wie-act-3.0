@@ -24,7 +24,7 @@ export default function HeroSection() {
                     src='/images/logo.webp'
                     width={100}
                     height={100}
-                    alt='logo wie act'
+                    alt='WIE ACT logo'
                 />
             </div>
         </section>

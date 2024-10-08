@@ -13,7 +13,7 @@ const TeamCard = ({ name, description, imageUrl }: Props) => {
                 src={imageUrl}
                 width={250}
                 height={250}
-                alt={name}
+                alt={`Image of ${name}`}
                 className='rounded-full w-60 h-60 object-cover mb-4 border-2 border-[#925775] p-2 '
             />
             <h4 className='text-2xl font-bold uppercase text-[#925775]'>
