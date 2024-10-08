@@ -28,11 +28,11 @@ const Footer = () => {
                         Quick Links
                     </h4>
                     <ul className='flex flex-col gap-2'>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Agenda</li>
-                        <li>Sponsors</li>
-                        <li>Contact</li>
+                        <Link href=''>Home</Link>
+                        <Link href='/about-us'>About Us</Link>
+                        <Link href='/#news-section'>Latest News</Link>
+                        <Link href='/#speakers-section'>Speakers</Link>
+                        <Link href='/#teams-section'>Team</Link>
                     </ul>
                 </div>
             </div>
