@@ -16,7 +16,7 @@ export default function WieEsprit() {
                     IEEE ESPRIT WIE SB affinity group
                 </h2>
                 <p className='md:text-lg md:py-10'>
-                    WIE student branch chapter is a community of students
+                    WIE student branch Affinity Group is a community of students
                     dedicated to promoting gender diversity and empowering women
                     in the field of engineering. This chapter focuses on
                     creating opportunities for networking, mentorship, and
