@@ -18,12 +18,12 @@ const HeroSection = () => {
                 Engineering Annual Congress of Tunisia 3.0, themed
                 Revolutionizing Women’s Privacy in a Digital World, recognizes
                 the power of female engineers in creating a safer digital
-                future. This yearvs congress highlights the critical role of
-                cybersecurity in safeguarding women&apos;s privacy, emphasizing
-                how women are leading the development of secure technical
-                solutions amidst growing digital risks.
+                future. This year&apos;s congress highlights the critical role
+                of cybersecurity in safeguarding women&apos;s privacy,
+                emphasizing how women are leading the development of secure
+                technical solutions amidst growing digital risks.
             </p>
-            <Link href={'/about-us'} className='flex gap-10 mt-10'>
+            <Link href={'/about-us'} className='gap-10 mt-10 w-fit'>
                 <Button size='lg'>Learn more</Button>
             </Link>
         </section>
