@@ -13,14 +13,14 @@ export default function PreviousEditions() {
                 <EditionCard
                     title='wie act 1.0'
                     description="The inaugural IEEE WIE Congress in Tunisia celebrated the exceptional achievements of STEM professionals and sparked women's empowerment, enabling them to thrive in their industries. With the slogan 'Honoring the Past and Inspiring the Future', WIE ACT 1.0 featured inspiring speakers, entertaining competitions, and delightful surprises, providing a remarkable experience."
-                    image='/images/editions/wie-act-1.png'
-                    logo='/images/editions/wie-act-1-logo.png'
+                    image='/images/editions/wie-act-1.webp'
+                    logo='/images/editions/wie-act-1-logo.webp'
                 />
                 <EditionCard
                     title='wie act 2.0'
                     description="The second edition of the Annual Women In Engineering Congress of Tunisia (WIE ACT 2.0) built on its predecessor's success, hosted by IEEE WIE ENETCOM SAG & IEEE WIE ENIS SAG, in partnership with the IEEE WIE Tunisia section. WIE ACT 2.0 celebrated innovation, collaboration, and excellence with engaging workshops, stimulating sessions, thrilling competitions, and vibrant celebrations. Its success inspires us as we plan the next edition with enthusiasm and determination."
-                    image='/images/editions/wie-act-2.png'
-                    logo='/images/editions/wie-act-2-logo.png'
+                    image='/images/editions/wie-act-2.webp'
+                    logo='/images/editions/wie-act-2-logo.webp'
                 />
             </div>
         </section>

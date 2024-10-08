@@ -21,7 +21,7 @@ export default function HeroSection() {
                 </p>
                 <Image
                     className='md:block hidden'
-                    src='/images/logo.png'
+                    src='/images/logo.webp'
                     width={100}
                     height={100}
                     alt='logo wie act'

@@ -11,7 +11,7 @@ export default function AboutUsPage() {
             <div
                 className='absolute top-0 right-0 w-[981px] h-[954px] bg-cover bg-center bg-no-repeat rounded-t-lg '
                 style={{
-                    backgroundImage: `url(/images/hero-about-bg.png)`
+                    backgroundImage: `url(/images/hero-about-bg.webp)`
                 }}></div>
 
             <HeroSection />
@@ -19,7 +19,7 @@ export default function AboutUsPage() {
             <div
                 className='w-full md:h-[800px] h-auto bg-cover bg-center bg-no-repeat rounded-t-lg md:-mt-40 -mt-20'
                 style={{
-                    backgroundImage: `url(/images/esprit.png)`
+                    backgroundImage: `url(/images/esprit.webp)`
                 }}></div>
             <EspritSb />
             <WieEsprit />

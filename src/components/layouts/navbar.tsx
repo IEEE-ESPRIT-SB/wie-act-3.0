@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className='absolute inline-flex items-center justify-between w-full md:px-20 px-10 py-4 z-[99]'>
             <div className='inline-flex w-full justify-between items-center gap-20'>
                 <Image
-                    src='/images/logo.png'
+                    src='/images/logo.webp'
                     alt='logo CSTAM'
                     width={40}
                     height={40}
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <DrawerContent>
                         <div className='flex flex-col p-10 gap-20 '>
                             <Image
-                                src='/images/logo.png'
+                                src='/images/logo.webp'
                                 alt='logo CSTAM'
                                 className='self-center'
                                 width={50}

@@ -5,7 +5,7 @@ export default function WieEsprit() {
         <section className='flex md:flex-row flex-col justify-center items-center gap-10 md:px-40 px-10'>
             <div className='flex-1 flex items-center justify-center'>
                 <Image
-                    src='/images/wie-logo.png'
+                    src='/images/wie-logo.webp'
                     width={500}
                     height={500}
                     alt='logo wie act'

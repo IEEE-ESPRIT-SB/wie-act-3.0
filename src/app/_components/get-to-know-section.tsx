@@ -9,7 +9,7 @@ const GetToKnow = () => {
             id='get-to-know-section'
             className='flex flex-row md:px-40 px-10 py-40 bg-center bg-cover bg-no-repeat w-full'
             style={{
-                backgroundImage: `url('/images/about-bg.png')`
+                backgroundImage: `url('/images/about-bg.webp')`
             }}>
             <div className='flex-1'></div>
             <div className='flex flex-col gap-10 flex-1'>

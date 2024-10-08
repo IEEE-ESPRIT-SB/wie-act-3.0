@@ -41,7 +41,7 @@ const TechChallenge = () => {
             </div>
             <Image
                 className='md:block hidden'
-                src='/images/challenge.png'
+                src='/images/challenge.webp'
                 width={800}
                 height={400}
                 alt='Tech Challenge'

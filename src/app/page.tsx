@@ -7,25 +7,25 @@ import NewsSection from './_components/news-section';
 import Speakers from './_components/speakers-section';
 import TeamsSection from './_components/teams-section';
 import TechChallenge from './_components/tech-challenge-section';
-import ComSocLogo from '/public/images/sponsors/com-soc.png';
-import FoundationLogo from '/public/images/sponsors/foundation.png';
-import IASLogo from '/public/images/sponsors/ias.png';
-import SBLogo from '/public/images/sponsors/sb.png';
-import StudentsLogo from '/public/images/sponsors/students.png';
-import WieLogo from '/public/images/sponsors/wie.png';
+import ComSocLogo from '/public/images/sponsors/com-soc.webp';
+import FoundationLogo from '/public/images/sponsors/foundation.webp';
+import IASLogo from '/public/images/sponsors/ias.webp';
+import SBLogo from '/public/images/sponsors/sb.webp';
+import StudentsLogo from '/public/images/sponsors/students.webp';
+import WieLogo from '/public/images/sponsors/wie.webp';
 
 export default function Home() {
     return (
         <main className='flex flex-col md:gap-20 gap-20 py-20 bg-background'>
             <div
-                className='absolute top-0 right-0 md:w-[1500px] w-screen h-[900px] bg-cover bg-center bg-no-repeat rounded-t-lg '
+                className='absolute top-0 right-0 md:w-[1500px] w-screen h-[1200px] bg-cover bg-center bg-no-repeat rounded-t-lg '
                 style={{
-                    backgroundImage: `url(/images/hero-bg.png)`
+                    backgroundImage: `url(/images/hero-bg.webp)`
                 }}></div>
             <div
                 className='absolute top-0 left-0 w-[250px] h-full bg-cover bg-center bg-no-repeat rounded-t-lg '
                 style={{
-                    backgroundImage: `url(/images/act.png)`
+                    backgroundImage: `url(/images/act.webp)`
                 }}></div>
 
             <HeroSection />

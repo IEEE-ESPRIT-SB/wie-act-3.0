@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='flex flex-row justify-between'>
                 <div className='flex flex-col gap-4 flex-1'>
                     <Image
-                        src='/images/logo.png'
+                        src='/images/logo.webp'
                         alt='logo CSTAM'
                         width={80}
                         height={40}
