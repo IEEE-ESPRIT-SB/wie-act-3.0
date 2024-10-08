@@ -37,13 +37,19 @@ export default function Home() {
             <div className='z-10 md:px-40 px-10'>
                 <div className='overflow-x-scroll flex flex-row items-center gap-10 scrollbar-hide'>
                     <Image
-                        src={ComSocLogo}
-                        alt='Com Soc LOGO'
+                        src={StudentsLogo}
+                        alt='Students LOGO'
                         style={{ width: 'auto', height: '40px' }}
                     />
+
                     <Image
                         src={FoundationLogo}
                         alt='Foundation Logo'
+                        style={{ width: 'auto', height: '40px' }}
+                    />
+                    <Image
+                        src={ComSocLogo}
+                        alt='Com Soc LOGO'
                         style={{ width: 'auto', height: '40px' }}
                     />
                     <Image
@@ -57,6 +63,11 @@ export default function Home() {
                         style={{ width: 'auto', height: '40px' }}
                     />
                     <Image
+                        src={IASLogo}
+                        alt='IAS LOGO'
+                        className='object-contain'
+                    />
+                    <Image
                         src={SectionLogo}
                         alt='Section Logo'
                         style={{ width: 'auto', height: '40px' }}
@@ -66,26 +77,18 @@ export default function Home() {
                         alt='Wie Section Logo'
                         style={{ width: 'auto', height: '40px' }}
                     />
+
                     <Image
                         src={EspritLogo}
                         alt='Esprit Logo'
                         style={{ width: 'auto', height: '40px' }}
                     />
                     <Image
-                        src={IASLogo}
-                        alt='IAS LOGO'
-                        className='object-contain'
-                    />
-                    <Image
                         src={SBLogo}
                         alt='SB LOGO'
                         style={{ width: 'auto', height: '40px' }}
                     />
-                    <Image
-                        src={StudentsLogo}
-                        alt='Students LOGO'
-                        style={{ width: 'auto', height: '40px' }}
-                    />
+
                     <Image
                         src={WieLogo}
                         alt='Wie LOGO'
