@@ -35,7 +35,7 @@ export default function Home() {
 
             <HeroSection />
             <div className='z-10 md:px-40 px-10'>
-                <div className='overflow-x-scroll flex flex-row items-center gap-10 '>
+                <div className='overflow-x-scroll flex flex-row items-center gap-10 scrollbar-hide'>
                     <Image
                         src={ComSocLogo}
                         alt='Com Soc LOGO'
