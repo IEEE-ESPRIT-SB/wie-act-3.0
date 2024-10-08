@@ -14,7 +14,7 @@ export default function EditionCard({
     logo
 }: Readonly<Props>) {
     return (
-        <div className='w-[400px] bg-primary rounded-lg text-white z-20 flex flex-col justify-between'>
+        <div className='md:w-[400px] w-full bg-primary rounded-lg text-white z-20 flex flex-col justify-between'>
             <div
                 className='w-full h-[250px] bg-cover bg-center bg-no-repeat rounded-t-lg'
                 style={{
