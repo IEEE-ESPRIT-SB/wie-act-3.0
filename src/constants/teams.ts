@@ -25,7 +25,7 @@ export const ebTeams = [
         imageUrl: '/images/oc/sarra-bellassoued.webp'
     },
     {
-        name: 'Mohamed Bouzayen',
+        name: 'Mohamed Bouzayani',
         description: 'Logistics Manager',
         imageUrl: '/images/oc/mohamed-bouzayen.webp'
     },
