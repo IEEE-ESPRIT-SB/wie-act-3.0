@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.wie-act.tn/
+
+# Sitemaps
+Sitemap: https://www.wie-act.tn/sitemap.xml

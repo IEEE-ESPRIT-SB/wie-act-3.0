@@ -3,6 +3,7 @@ import { Oswald } from 'next/font/google';
 import Footer from '../components/layouts/footer';
 import Navbar from '../components/layouts/navbar';
 
+import { Html } from 'next/document';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -36,12 +37,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang='en' className={oswald.className}>
+        <Html lang='en' className={oswald.className}>
             <body>
                 <Navbar />
                 {children}
                 <Footer />
             </body>
-        </html>
+        </Html>
     );
 }
